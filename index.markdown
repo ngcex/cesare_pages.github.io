@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is the content of the home page.
+Hello! Here you can find some pages with tips and tricks for Data Scientists.
