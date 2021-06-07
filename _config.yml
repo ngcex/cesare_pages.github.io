@@ -30,9 +30,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dadatif
 
 # Build settings
-theme: minima
+remote_theme: mmistakes/minimal-mistakes@4.23.0
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
+incremental: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
