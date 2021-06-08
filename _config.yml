@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Danilo Giuffrida
+title: dadatif
 
 #email: your-email@example.com
 
@@ -41,7 +41,8 @@ sidebar:
 
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes@4.23.0
+#remote_theme: mmistakes/minimal-mistakes@4.23.0
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-feed
@@ -53,23 +54,16 @@ search: true
 
 author:
   name     : "Danilo Giuffrida"
-  avatar   : "/assets/images/1557732454186.jpeg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
-  location : "Italy"
+  avatar   : "/assets/images/bio.jpeg"
+  bio      : "Data Scientist"
+  location : "Milan and Catania, Italy"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
-
+      url: "https://github.com/dadatif"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danilo-giuffrida/"
 
 
 defaults:
@@ -81,7 +75,12 @@ defaults:
       show_date: true
       read_time: true
       author_profile: true
-
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
