@@ -24,10 +24,21 @@ title: Danilo Giuffrida
 
 description: >- # this means to ignore newlines until "baseurl:"
 
+minimal_mistakes_skin: "default"
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  dadatif
+
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.23.0
@@ -37,6 +48,40 @@ plugins:
   - jekyll-include-cache
 
 incremental: true
+
+search: true
+
+author:
+  name     : "Danilo Giuffrida"
+  avatar   : "/assets/images/1557732454186.jpeg"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Italy"
+  links:
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      author_profile: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
