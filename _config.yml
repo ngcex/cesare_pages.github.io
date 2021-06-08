@@ -18,25 +18,69 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Danilo Giuffrida
+title: dadatif
 
 #email: your-email@example.com
 
 description: >- # this means to ignore newlines until "baseurl:"
+
+minimal_mistakes_skin: "default"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  dadatif
 
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+
+
 # Build settings
-remote_theme: mmistakes/minimal-mistakes@4.23.0
+#remote_theme: mmistakes/minimal-mistakes@4.23.0
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
 incremental: true
+
+search: true
+
+author:
+  name     : "Danilo Giuffrida"
+  avatar   : "/assets/images/bio.jpeg"
+  bio      : "Data Scientist"
+  location : "Milan and Catania, Italy"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dadatif"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danilo-giuffrida/"
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
