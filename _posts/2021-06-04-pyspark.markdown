@@ -1,12 +1,14 @@
 ---
 layout: posts
-title:  "pyspark"
+title:  "PySpark"
 date:   2021-06-04 21:02:13 +0200
 categories: jekyll update
 ---
 
+PySpark is an interface for Apache Spark in Python.
 
-count:
+
+Count:
 
 ``` python
 df.count()
