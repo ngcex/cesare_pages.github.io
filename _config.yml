@@ -18,6 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Build settings
+remote_theme: mmistakes/minimal-mistakes@4.23.0
+#theme: minimal-mistakes-jekyll
+
 title: dadatif
 
 #email: your-email@example.com
@@ -39,10 +43,6 @@ sidebar:
   - title: "Another Title"
     text: "More text here."
 
-
-# Build settings
-#remote_theme: mmistakes/minimal-mistakes@4.23.0
-theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-feed
@@ -81,6 +81,8 @@ defaults:
       type: pages
     values:
       author_profile: true
+      layout: single
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
