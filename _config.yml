@@ -54,7 +54,7 @@ search: true
 
 author:
   name     : "Danilo Giuffrida"
-  avatar   : "/assets/images/bio.jpeg"
+  avatar   : "/assets/images/user.jpeg"
   bio      : "Data Scientist"
   location : "Milan and Catania, Italy"
   links:
