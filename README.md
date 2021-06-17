@@ -21,3 +21,9 @@ If you are deploying on github, use:
 remote_theme: mmistakes/minimal-mistakes@4.23.0
 #theme: minimal-mistakes-jekyll
 ```
+
+To see where default files are located, run:
+
+```shell
+bundle info minimal-mistakes-jekyll
+```
