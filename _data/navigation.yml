@@ -1,0 +1,5 @@
+main:
+  - title: "Posts"
+    url: /docs/all_posts/
+  - title: "About me"
+    url: /docs/about_me/
