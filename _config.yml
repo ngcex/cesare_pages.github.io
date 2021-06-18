@@ -85,7 +85,7 @@ defaults:
 
 # Reading Files
 include:
-  - /pages
+  - /_pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
