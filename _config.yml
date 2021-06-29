@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes@4.23.0
-#theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes@4.23.0
+theme: minimal-mistakes-jekyll
 
 title: dadatif
 
@@ -67,15 +67,13 @@ author:
 
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       show_date: true
       read_time: true
-      author_profile: true
-  # _posts
+      author_profile: false
   - scope:
       path: ""
       type: pages
