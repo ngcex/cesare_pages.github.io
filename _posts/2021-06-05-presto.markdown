@@ -1,0 +1,106 @@
+---
+layout: posts
+title:  "Presto performance tricks"
+date:   2021-06-05 21:02:13 +0200
+categories: jekyll update
+---
+
+## Join
+``` sql
+-- SLOW VERSION
+select * 
+from small_table
+join big_table
+...
+``` 
+``` sql
+-- FAST VERSION
+select * 
+from big_table
+join small_table
+...
+``` 
+
+
+## in (...)
+``` sql
+-- SLOW VERSION
+select * from ...
+where ... in (select * from ...)
+``` 
+``` sql
+-- FAST VERSION
+select * from ...
+where ... in ('v1','v2','v3',...)
+``` 
+
+
+## Percentiles
+``` sql
+-- SLOW VERSION (1m 30s)
+select 
+  approx_percentile(a_column, 0.1),
+  approx_percentile(a_column, 0.2),
+  approx_percentile(a_column, 0.3),
+  ...
+from ...
+```
+
+``` sql
+-- FAST VERSION (7s)
+select approx_percentile(a_column, array[0.1, 0.2, 0.3,...])
+from ...
+```
+
+## Distinct before big joins
+???
+
+
+## `IN` rather than `OR`
+
+``` sql
+-- SLOW VERSION
+select ...
+from ...
+where a_column = 'a' or a_column='b'
+```
+
+``` sql
+-- FAST VERSION
+select ...
+from ...
+where a_column in ('a','b')
+```
+
+## `ST_Contains` much faster than `ST_Within`
+!
+
+## Use "with" to avoid st operations on join
+
+``` sql
+-- SLOW VERSION (40s)
+select *
+from a_table t1
+join another_table t2 
+on st_contains(st_geometryfromtext(wkt), st_point(lng,lat))
+```
+
+``` sql
+-- FAST VERSION (3s)
+with 
+
+t1 as (
+    select st_point(lng,lat) as point, ...
+    from a_table
+),
+
+t2 as (
+    select st_geometryfromtext(wkt) as geom, ...
+    from another_table
+)
+
+select *
+from t1 join t2 
+on st_contains(geom, point) 
+...
+```
