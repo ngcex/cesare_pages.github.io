@@ -1,0 +1,36 @@
+---
+layout: posts
+title:  "Python environments"
+date:   2021-11-14 00:00:00 +0200
+categories: jekyll update
+---
+
+
+```
+brew install pyenv
+brew upgrade pyenv
+pyenv install miniconda3-4.7.12
+.pyenv/versions/miniconda3-4.7.12/bin/conda install python=3.8.3 -c conda-forge
+.pyenv/versions/miniconda3-4.7.12/bin/conda clean --all --yes
+```
+
+```
+export PATH="$PYENV_ROOT/versions/miniconda3-4.7.12/bin":$PATH
+```
+
+Type source `~/.bash_profile` or restart your terminal.
+
+
+`which python`
+`~/.pyenv/versions/miniconda3-4.7.12/bin/python`
+
+`which pip`
+`>>> ~/.pyenv/versions/miniconda3-4.7.12/bin/pip`
+
+```
+pip install pipenv
+```
+
+```
+alias pipenv_init='~/.pyenv/versions/miniconda3-4.7.12/bin/pipenv --python ~/.pyenv/versions/miniconda3-4.7.12/bin/python'
+```

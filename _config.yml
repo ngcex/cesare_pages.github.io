@@ -22,7 +22,7 @@
 remote_theme: mmistakes/minimal-mistakes@4.23.0
 #theme: minimal-mistakes-jekyll
 
-title: dadatif
+title: danilotif
 
 #email: your-email@example.com
 
@@ -54,7 +54,7 @@ search: true
 
 author:
   name     : "Danilo Giuffrida"
-  avatar   : "/assets/images/user.jpeg"
+  avatar   : "/assets/images/me.png"
   bio      : "Data Scientist"
   location : "Milan and Catania, Italy"
   links:
