@@ -7,7 +7,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-
 .author__avatar img{
     max-width: 70%;
 }
@@ -53,6 +52,14 @@
 
 .page__hero--overlay .wrapper{
     padding-top: 30vh;
+}
+
+.page__hero--overlay .page__title{
+    margin: 0;
+}
+
+.page__hero--overlay .page__lead{
+    margin: 0;
 }
 
 .page__lead{

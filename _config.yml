@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes@4.23.0
-#theme: minimal-mistakes-jekyll
+#remote_theme: mmistakes/minimal-mistakes@4.23.0
+theme: minimal-mistakes-jekyll
 
 title: danilotif
 
@@ -55,7 +55,7 @@ search: true
 author:
   name     : "Danilo Giuffrida"
   avatar   : "/assets/images/me.png"
-  bio      : "Data Scientist"
+  bio      : "data scientist"
   location : "Milan and Catania, Italy"
   links:
     - label: "GitHub"

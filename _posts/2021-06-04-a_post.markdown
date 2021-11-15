@@ -1,0 +1,13 @@
+---
+layout: posts
+title:  "A post"
+date:   2021-06-04 21:02:13 +0200
+categories: jekyll update
+---
+
+Hello.
+
+```
+df.createOrReplaceTempView("my_table")
+df2 = dss.reader.read_with_spark_sql("select * from my_table")
+```
