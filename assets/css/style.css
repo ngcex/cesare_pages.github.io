@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
 /**
 * Template Name: Laura - v4.6.0
 * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
@@ -24,7 +26,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -294,7 +296,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
-  font-family: "Satisfy", serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 #hero h2 {
