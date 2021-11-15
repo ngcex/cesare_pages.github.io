@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /**
 * Template Name: Laura - v4.6.0
@@ -11,7 +11,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #444444;
 }
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -507,7 +507,7 @@ section {
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #5d6a75;
 }
@@ -517,7 +517,7 @@ section {
   margin-top: 20px;
   color: #5d6a75;
   font-size: 15px;
-  font-family: "Satisfy", serif;
+  font-family: "Roboto", serif;
   transition: ease-in-out 0.3s;
 }
 .about .content .count-box a:hover {
@@ -543,7 +543,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #3b434a;
 }
 .about .skills-content .progress .skill .val {
@@ -1143,7 +1143,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Satisfy", serif;
+  font-family: "Roboto", serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
