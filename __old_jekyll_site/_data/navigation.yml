@@ -1,7 +1,0 @@
-main:
-  - title: "About me"
-    url: /_pages/about_me
-  - title: "Portfolio"
-    url: /_pages/portfolio
-  - title: "Posts"
-    url: /_pages/all_posts

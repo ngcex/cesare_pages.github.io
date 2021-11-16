@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-15T07:53:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">danilotif</title><subtitle></subtitle><author><name>Danilo Giuffrida</name></author><entry><title type="html">A post</title><link href="http://localhost:4000/jekyll/update/2021/06/04/a_post.html" rel="alternate" type="text/html" title="A post" /><published>2021-06-04T21:02:13+02:00</published><updated>2021-06-04T21:02:13+02:00</updated><id>http://localhost:4000/jekyll/update/2021/06/04/a_post</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2021/06/04/a_post.html">Hello.
-
-```
-df.createOrReplaceTempView(&quot;my_table&quot;)
-df2 = dss.reader.read_with_spark_sql(&quot;select * from my_table&quot;)
-```</content><author><name>Danilo Giuffrida</name></author><category term="jekyll" /><category term="update" /><summary type="html">Hello.</summary></entry></feed>
