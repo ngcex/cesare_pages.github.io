@@ -1181,3 +1181,27 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+
+.job-header{
+    padding: 2%;
+}
+
+.job-title{
+    font-size: x-large;
+    font-weight: bold;
+}
+.job-sector{
+    font-size: larger;
+    color: orange;
+    font-weight: bold;
+}
+
+.job-where-when{
+    font-style: italic;
+}
+.job-details{
+    font-size:small;
+    padding: 2%;
+}
