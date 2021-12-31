@@ -1192,6 +1192,11 @@ section {
     font-size: x-large;
     font-weight: bold;
 }
+
+.job-image{
+    max-width:4rem;
+}
+
 .job-sector{
     font-size: larger;
     color: orange;
@@ -1203,5 +1208,4 @@ section {
 }
 .job-details{
     font-size:small;
-    padding: 2%;
 }
