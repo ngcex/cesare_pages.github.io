@@ -43,8 +43,9 @@
       <ul>
         <!--<li><a class="nav-link scrollto active" href="#hero">Home</a></li>-->
         <!--<li><a class="nav-link scrollto" href="#about">About</a></li>-->
-        <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
+        <li><a class="nav-link scrollto" href="#resume">About me</a></li>
         <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+        <li><a class="nav-link scrollto " href="#resources">Resources</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -63,34 +64,74 @@
 
   <main id="main">
 
-    <!-- ======= About Me Section ======= -->
-    <section id="about" class="about" style="display:none">
+    <!-- ======= My Resume Section ======= -->
+    <section id="resume" class="resume" style="display:solid">
       <div class="container">
 
+        <!-- ROW: ABOUT ME -->
         <div class="row">
-
-          <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-          <div class="col-lg-8 d-flex flex-column align-items-stretch">
-            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Danilo Giuffrida</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Links:</strong> <span>
-                      <a href="#" class="linkedin"><i class="bx bxl-github"></i></a>
-                      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    </span></li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  </ul>
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-3" >
+                 <img src="assets/img/me.png" alt="" style="width:100%">
+                 </div>
+              <div class="col-lg-9" style="padding:10% 10%">
+                <h3 class="resume-title">Danilo Giuffrida</h3>
+              <p>🇮🇹I am Italian, born in 1991.</p>
+              <p>I am a <strong>Senior Data  Scientist</strong> at Cuebiq, where I have fun processing billions of GPS data points and making <strong>big data algorithms</strong> and web-applications.</p>
+              <p>I studied <strong>Theoretical and Computational Physics</strong> and in my previous jobs I've worked with <strong>Complex Networks</strong> (using data from social networks) and <strong>Deep Learning</strong> (for computer vision).</p>
+                <p><strong>My strengths?</strong> Imagination, positivity and love for simplicity.</p>
                 </div>
               </div>
-              <div class="row mt-n4">
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <!--<div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>MSc: Theoretical and Computational Physics</h4>
+              <h5>2016</h5>
+              <p><em>Università degli Studi di Catania</em></p>
+              <p>Final Thesis: The Harmonic Framework for Weighted Complex Networks. Prof. V. Latora and Doct. M. Bonaventura, Queen Mary University of London.
+              </p>
+            </div>
+          </div>-->
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <img src="assets/img/cuebiq-logo.png" alt="" width="25%" style="padding:3%">
+              <h4>Senior Data Scientist (spatial data science)</h4>
+              <h5>2018 - Present</h5>
+
+
+              <p><em>Cuebiq, Milan, IT </em></p>
+              <p>
+              <ul>
+                <li>Spatial Data Science and Machine Learning for GPS data processing</li>
+                <li>Big Data processing using Presto SQL and pySpark</li>
+                <li>Data Visualization (plotly, kepler, deck.gl, mapbox, matplotlib, etc.)</li>
+                <li>Web-app development using python Dash and React to transform our new ideas into POCs or ready-to-sell dashboards</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Data scientist (computer vision)</h4>
+              <h5>2017 - 2018</h5>
+              <img src="assets/img/tabex-logo.png" alt="" width="10%">
+            </div>
+            <div class="resume-item">
+              <h4>Data scientist (social networks)</h4>
+              <h5>2017 - 2018</h5>
+              <img src="assets/img/stn-logo.jpeg" alt="" width="10%">
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row mt-n4">
                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-emoji-smile" style="color: #20b38e;"></i>
@@ -123,118 +164,37 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End .content-->
+          </div>
 
-            <div class="skills-content ps-lg-4">
-              <div class="progress">
-                <span class="skill">Python <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
 
-              <div class="progress">
-                <span class="skill">HTML / CSS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
 
-              <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
+          <!--<div class="col-lg-6">
+            <h3 class="resume-title">Skills</h3>
+            <div class="resume-item">
+
+      <div class="col-lg-12 d-flex flex-column align-items-stretch">
+            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+
             </div>
 
-          </div>
-        </div>
+          <div class="skill-tags-container">
+            <span class="badge bg-secondary">Python</span>
+            <span class="badge bg-secondary">SQL</span>
+            <span class="badge bg-secondary">Presto</span>
+            <span class="badge bg-secondary">PySpark</span>
 
+            <span class="badge bg-secondary">Machine Learning</span>
+            <span class="badge bg-secondary">Deep Learning</span>
+
+            <span class="badge bg-secondary">ElasticSearch</span>
+            <span class="badge bg-secondary">HTML / CSS</span>
+
+            <span class="badge bg-secondary">AWS</span>
+            <span class="badge bg-secondary">Computer vision</span>
+          </div>
       </div>
-    </section><!-- End About Me Section -->
-
-    <!-- ======= My Resume Section ======= -->
-    <section id="resume" class="resume" style="display:solid">
-      <div class="container">
-
-        <!-- ROW: ABOUT ME -->
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-lg-3" >
-                <img src="assets/img/me.png" alt="" style="width:100%">
-                </div>
-              <div class="col-lg-9" style="padding:10% 10%">
-                <h3 class="resume-title">Danilo Giuffrida</h3>
-              <p>I am Italian, born in 1991.</p>
-              <p>I am a <strong>Senior Data  Scientist</strong> at Cuebiq, where I have fun processing billions of GPS data points and making <strong>big data algorithms</strong> and web-applications.</p>
-              <p>I studied <strong>Theoretical and Computational Physics</strong> and in my previous jobs I've worked with <strong>Complex Networks</strong> (using data from social networks) and <strong>Deep Learning</strong> (for computer vision).</p>
-                <p><strong>My strengths?</strong> Imagination, positivity and love for simplicity.</p>
-                </div>
-              </div>
-          </div>
-        </div>
-
-
-
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>MSc: Theoretical and Computational Physics</h4>
-              <h5>2016</h5>
-              <p><em>Università degli Studi di Catania</em></p>
-              <p>Final Thesis: The Harmonic Framework for Weighted Complex Networks. Prof. V. Latora and Doct. M. Bonaventura, Queen Mary University of London.
-              </p>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior Data Scientist</h4>
-              <h5>2018 - Present</h5>
-              <img src="assets/img/cuebiq-logo.png" alt="">
-
-              <p><em>Cuebiq, Milan, IT </em></p>
-              <p>
-              <ul>
-                <li>Spatial Data Science and Machine Learning for GPS data processing</li>
-                <li>Big Data processing using Presto SQL and pySpark</li>
-                <li>Data Visualization (plotly, kepler, deck.gl, mapbox, matplotlib, etc.)</li>
-                <li>Web-app development using python Dash and React to transform our new ideas into POCs or ready-to-sell dashboards</li>
-              </ul>
-              </p>
-            </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <img src="assets/img/tabex-logo.png" alt="">
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-              </p>
-            </div>
-            <div class="resume-item">
-              <h4>STN</h4>
-              <h5>2017 - 2018</h5>
-              <img src="assets/img/stn-logo.jpeg" alt="">
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-              </p>
-            </div>
-          </div>
+          </div>-->
         </div>
 
       </div>
