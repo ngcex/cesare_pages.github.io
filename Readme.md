@@ -1,0 +1,1 @@
+Simply open index.hml
