@@ -1183,6 +1183,12 @@ section {
 }
 
 
+.me-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #border: 3px solid orange;
+}
 
 .job-header{
     padding: 2%;
@@ -1191,6 +1197,14 @@ section {
 .job-title{
     font-size: x-large;
     font-weight: bold;
+}
+
+.job-image-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #border: 3px solid orange;
 }
 
 .job-image{
