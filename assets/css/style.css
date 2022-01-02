@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0 0 60px 0;
 }
 
 .section-bg {
@@ -1180,4 +1180,46 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+
+.me-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #border: 3px solid orange;
+}
+
+.job-header{
+    padding: 2%;
+}
+
+.job-title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.job-image-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  #border: 3px solid orange;
+}
+
+.job-image{
+    max-width:4rem;
+}
+
+.job-sector{
+    font-size: larger;
+    color: orange;
+    font-weight: bold;
+}
+
+.job-where-when{
+    font-style: italic;
+}
+.job-details{
+    font-size:small;
 }
