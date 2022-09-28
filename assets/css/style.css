@@ -300,12 +300,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero h2 {
-  color: #eee;
-  margin-bottom: 50px;
-  font-size: 3vw;
+  color: orange;
+  #margin-bottom: 50px;
+  font-size: 2.5vw;
   font-weight: 500;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  #text-transform: uppercase;
+}
+#hero h3 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 2vw;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 #hero .btn-scroll {
   transition: 0.4s;
@@ -1240,4 +1247,6 @@ section {
 }
 .job-details{
     font-size:small;
+    text-align: justify;
+    text-justify: inter-word;
 }
