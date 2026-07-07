@@ -1,0 +1,17 @@
+---
+title: "FLIRT — mission-wide TESS stellar flare pipeline"
+summary: "MiniRocket + Random Forest classification cascaded with AltaiPony event detection across all 96 TESS sectors, yielding a 232,187-event flare catalogue across 11,303 flaring stars. Submitted to MNRAS."
+year: 2026
+tags:
+  - astrophysics
+  - time-series
+  - machine-learning
+coverImage: flirt-injection-recovery.png
+featured: true
+---
+
+A mission-wide pipeline for stellar flare identification across all 96 TESS sectors, combining a fast MiniRocket (ROCKET-family transform) + Random Forest triage with light-curve-level event detection via AltaiPony. Out of 97,459 candidate host stars screened, the pipeline identifies 11,303 flaring stars and a catalogue of 232,187 robust flare events.
+
+The method is validated through injection-recovery testing (completeness plateauing around 79%), cross-sector generalisation checks, and an out-of-distribution comparison against the Yang et al. (2023) CVZ-North catalogue, alongside a false-positive purity estimate for the final catalogue.
+
+Independent research conducted with Gruppo Astrofili Catanesi "Guido Ruggieri" (Catania, Italy). Paper submitted to MNRAS: *FLIRT: Flare Identification via Rocket Transform — a mission-wide TESS stellar flare pipeline and catalogue across 96 sectors*. Code and catalogue: [github.com/ngcex/flirt](https://github.com/ngcex/flirt).
