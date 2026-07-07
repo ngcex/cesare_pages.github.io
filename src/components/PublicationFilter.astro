@@ -71,6 +71,7 @@ const chips: { value: string; label: string }[] = [
             row.classList.add('hidden');
           }
         });
+        // Hide year separators that have no visible children
         const groups = list.querySelectorAll('[data-year-group]');
         groups.forEach((g) => {
           const visible = g.querySelectorAll('[data-type]:not(.hidden)').length;
